@@ -30,6 +30,6 @@ jobs:
 
       - name: Analysing the code with pylint
         run: |
-          python -m pylint --fail-under=10 $(git ls-files '*.py')
+          python -m pylint --fail-under=1 $(git ls-files '*.py')
 
     
